@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
 </head>
 <body>
     <section>
-        <h1>Formularios</h1>
+        <h1 style="color: #0BF3A6; font-size: 60px;">Formularios</h1>
     </section>
 
     <form>
         <p>
-            <input type="text" name="name" placeholder="Ingresa tu nombre" autocomplete="off" required/>
+            <input type="text" class="form-input" name="name" placeholder="Ingresa tu nombre" autocomplete="off" required/>
         </p>
         <p>
-            <input type="email" name="email" placeholder="Ingresa tu correo" readonly value="amathiaslv@gmail.com" />
+            <input type="email" class="form-input" name="email" placeholder="Ingresa tu correo" readonly value="amathiaslv@gmail.com" />
         </p>
         <p>
-            <input type="password" name="password" placeholder="Ingresa una contrasena segura"/>
+            <input type="password" class="form-input" name="password" placeholder="Ingresa una contrasena segura"/>
         </p>
         <p>
             <input type="file" accept="image/*" name="image">
@@ -57,7 +58,7 @@
             <input type="color" name="bg_color">
         </p> 
         <p>
-            <button type="submit">Enviar datos</button>
+            <button id="boton-enviar" type="submit">Enviar datos</button>
         </p>  
 
        

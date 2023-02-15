@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+input {
+    width: 350px;
+    padding: 10px;
+}
+
+.form-input {
+    border-radius: 12px;
+    border: 0.5px solid #ccc;
+}
+#boton-enviar {
+    background-color: #D0F30B;
+    border: none;
+    color: white;
+    padding: 12px;
+    width: 350px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#boton-enviar:hover {
+    background-color: rebeccapurple;
+    border: 1px solid black;
+}
